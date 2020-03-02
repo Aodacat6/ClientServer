@@ -1,4 +1,4 @@
-package com.mycom.clientserver;
+package com.mycom.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,9 +12,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 //@MapperSacn
-public class ClientServerApplication {
+public class ClientApplication {
 
     public static void main(String[] args){
-        SpringApplication.run(ClientServerApplication.class, args);
+        SpringApplication.run(ClientApplication.class, args);
     }
 }
